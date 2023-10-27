@@ -1,0 +1,404 @@
+/* start main rulez*/
+body
+{
+  height: 4000px;
+  background-color: #020512;
+}
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+/* end main rulez*/
+
+/* start header*/
+.header .slider
+{
+    background-image:url('3.jpeg');
+    background-size: cover;
+    background-color:#020512;
+    height: 400px;
+}
+.header .slider .intro h1
+{
+    margin: 0;
+    height: 600px;
+}
+
+.header .navbar
+{
+    background-color: #252f31;
+    overflow: hidden;
+}
+.header .navbar h2 
+{
+    float: left;
+    color: wheat;
+    text-transform: capitalize;
+}
+.header .navbar h2 span
+{
+    color:#dbf480;
+
+}
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li
+{
+    float: left;
+    padding: 10px;
+    color:wheat;
+}
+.header .navbar ul li a 
+{
+    color: wheat;
+    text-decoration: none;
+}
+.header .navbar ul li a:hover 
+{
+color: #dbf480;
+}
+
+/* start features*/
+.features 
+{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: wheat;
+}
+.features .feat 
+{ 
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+}
+.features .feat h2
+{
+  
+    color: #dbf480;
+}
+.features .feat p
+{
+    line-height: 1.7;
+}
+/* end features*/
+
+/* start about me*/
+.about-me
+{
+    background-color:#020512;
+    overflow: hidden;
+}
+.about-me .image
+{
+    float: left;
+    width: 40%;
+}
+.about-me .image img
+{
+    width: 95%;
+}
+
+
+
+.about-me .info
+{
+    float: right;
+    width:60% ;
+    color: wheat;
+}
+.about-me .info h2
+{
+margin: 40px 0 20px 40px;
+color: #dbf480;
+}
+.about-me .info > p
+{
+margin: 0 0 10px 40px;
+line-height: 1.9;
+color: wheat;
+ 
+}
+
+.about-me .info .hobbies
+{
+    overflow: hidden;
+    margin: 20px 0 0 40px ;
+}
+.about-me .info .hobbies .content
+{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+.about-me .info .content h3
+{
+    color: #dbf480;
+}
+.about-me .info .hobbies .content .icon img
+{
+max-width: 20%;
+}
+/* end about me*/
+/* start my skils*/
+.my-skills
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+overflow: hidden;
+}
+.my-skills .skills,
+.my-skills .progress
+{
+     float: left;
+     width: 50%;
+     color: wheat;
+}
+.my-skills .skills h2
+{
+    color: #dbf480;
+}
+.my-skills .skills button 
+
+    {
+        padding: 15px 60px;
+        background: transparent;
+        border: 2px solid #edff00;
+        font-size: 15px;
+        font-weight: bold;
+        color: #ffffff;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        transition: all 0.5s;
+        text-transform: uppercase;
+      }
+      .my-skills .skills a
+      {
+        text-decoration: none;
+      }
+      
+      .my-skills .skills button :hover {
+        color: #0c071e;
+      }
+      
+      .my-skills .skills button  span {
+        transition: all 0.5s;
+        z-index: -1;
+      }
+      
+      .my-skills .skills button  span:nth-child(1), 
+      .my-skills .skills button  span:nth-child(2), 
+      .my-skills .skills button  span:nth-child(3), 
+      .my-skills .skills button  span:nth-child(4) {
+        position: absolute;
+        width: 100%;
+        height: 15px;
+        background-color: #edff00
+      }
+      
+      .my-skills .skills button  span:nth-child(1) {
+        top: -100%;
+        left: 0%;
+        right: 0;
+      }
+      
+      .my-skills .skills button :hover span:nth-child(1) {
+        top: 0%;
+      }
+      
+      .my-skills .skills button span:nth-child(2) {
+        top: 10px;
+        right: 100%;
+      }
+      
+      .my-skills .skills button :hover span:nth-child(2) {
+        right: 0;
+      }
+      
+      .my-skills .skills button  span:nth-child(3) {
+        top: 20px;
+        left: 100%;
+        right: 0;
+      }
+      
+      .my-skills .skills button :hover span:nth-child(3) {
+        left: 0;
+      }
+      
+      .my-skills .skills button span:nth-child(4) {
+        bottom: -100%;
+        left: 0;
+}
+      .my-skills .progress .tecnique 
+      {
+      margin-left: 30px;
+
+
+      } 
+      .my-skills .progress .tecnique h3
+      {
+      color: #dbf480;
+      }
+      .my-skills .progress .tecnique div
+      {
+     background-color:gainsboro;
+     height: 20px;
+      }
+      .my-skills .progress .tecnique div span
+      {
+         background-color: #dbf480;
+         width: 60%;
+         height: 20px;
+         display: block;
+      }
+
+      .my-skills .progress .tecnique2 
+      {
+      margin-left: 30px;
+
+
+      } 
+      .my-skills .progress .tecnique2 h3
+      {
+      color: #dbf480;
+      }
+      .my-skills .progress .tecnique2 div
+      {
+     background-color:gainsboro;
+     height: 20px;
+      }
+      .my-skills .progress .tecnique2 div span
+      {
+
+        background-color: #dbf480;
+        width: 50%;
+        height: 20px;
+        display: block;
+      }
+      .my-skills .progress .tecnique div span p,
+      .my-skills .progress .tecnique2 div span p
+      {
+        color: #020512;
+        text-align: right;
+      }
+
+      
+/*start photo*/
+ .my-experience
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: wheat;
+
+}
+.my-experience h2
+{
+    color:#dbf480;
+}
+.my-experience .work
+{
+    overflow: hidden;
+}
+.my-experience .work > div
+{
+    float: centre;
+    width: 33.333333%; 
+    margin-bottom: 15px;
+    margin-left: 18%;
+}
+.contect-me
+{
+background-color:#252f31;
+overflow: hidden;
+padding-top: 50px;
+padding-bottom: 70px;
+}
+.contect-me .information
+{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+.contect-me h2
+{
+    color: #dbf480;
+}
+.contect-me p
+{
+    color: wheat;
+}
+.contect-me .form
+{
+width: 45%;
+float: left;
+}
+.contect-me .form label
+{
+    display: block;
+    color:wheat;
+    margin-bottom: 10px;
+}
+.contect-me .form input[type="text"]
+{
+    background-color: #6A6E71;
+    padding: 8px;
+    width: 80%;
+    border: 0;
+    margin-bottom: 20px;
+
+}
+.contect-me .form  textarea
+{
+    background-color: #6A6E71;
+    padding: 8px;
+    width: 80%;
+    border: 0;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.contect-me .form input[type="submit"]
+{
+   background-color: #252f31;
+   color: wheat;
+   margin-left: 1%;
+   padding: 10px 20px ;
+  
+}
+/* end my skils*/
+/*start footer*/
+.footer
+{
+    background-color: #151414;
+    color:#6A6E71;
+    padding: 5px 0;
+    text-align: center;
+    overflow: hidden;
+}
+.footer span
+{
+float: left;
+}
+.footer ul 
+{
+list-style: none;
+padding-left: 0;
+margin: 0 ;
+float: right;
+}
+.footer ul li 
+{
+    display: inline-block;
+    height: 10px;
+    
+}
+/*end footer*/
+
